@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Skills.scss";
 
 const Skills = () => {
   const [activeSection, setActiveSection] = useState(0);
@@ -40,7 +41,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">HTML</h3>
-                    <span className="skills__number">90%</span>
+                    <span className="skills__number">85%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__html" />
@@ -49,7 +50,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">CSS</h3>
-                    <span className="skills__number">80%</span>
+                    <span className="skills__number">90%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__css" />
@@ -58,7 +59,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">JavaScript</h3>
-                    <span className="skills__number">60%</span>
+                    <span className="skills__number">85%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__js" />
@@ -67,7 +68,7 @@ const Skills = () => {
                 <div className="skills__data">
                   <div className="skills__titles">
                     <h3 className="skills__name">React</h3>
-                    <span className="skills__number">85%</span>
+                    <span className="skills__number">90%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__react" />
@@ -76,7 +77,7 @@ const Skills = () => {
               </div>
             </div>
             {/* Skills 2 */}
-            <div
+            {/* <div
               className={`skills__content ${
                 activeSection === 1 ? "skills__open" : "skills__close"
               }`}
@@ -112,7 +113,7 @@ const Skills = () => {
                     <span className="skills__percentage skills__node" />
                   </div>
                 </div>
-                {/* <div class="skills__data">
+                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Core Java</h3>
                     <span class="skills__number">90%</span>
@@ -129,9 +130,9 @@ const Skills = () => {
                   <div class="skills__bar">
                     <span class="skills__percentage skills__python"></span>
                   </div>
-                </div> */}
+                </div> 
               </div>
-            </div>
+            </div> */}
             {/* Skills 3 */}
             <div
               className={`skills__content ${
