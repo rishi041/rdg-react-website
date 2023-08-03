@@ -54,7 +54,7 @@ const Qualification = () => {
                   </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt" />
-                    2014 - 2015
+                    {' '}2014 - 2015
                   </div>
                 </div>
                 <div>
@@ -78,7 +78,7 @@ const Qualification = () => {
                   </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt" />
-                    2015 - 2017
+                    {' '}2015 - 2017
                   </div>
                 </div>
               </div>
@@ -93,7 +93,7 @@ const Qualification = () => {
                   </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt" />
-                    2017 - 2020
+                    {' '}2017 - 2020
                   </div>
                 </div>
                 <div>
@@ -117,7 +117,7 @@ const Qualification = () => {
                   </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt" />
-                    2020 - 2022
+                    {' '}2020 - 2022
                   </div>
                 </div>
               </div>
@@ -137,7 +137,7 @@ const Qualification = () => {
                   <span className="qualification__subtitle">Pune</span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt" />
-                    May 2022 - Aug 2022
+                    {' '}May 2022 - Aug 2022
                   </div>
                 </div>
                 <div>
@@ -159,7 +159,7 @@ const Qualification = () => {
                   </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt" />
-                    Dec 2022 - Present
+                    {' '}Dec 2022 - Present
                   </div>
                 </div>
               </div>
