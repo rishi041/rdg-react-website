@@ -33,6 +33,7 @@ $random-number: random-range(0, 360);
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  --swiper-theme-color: hsl(var(--hue-color), 69%, 61%) !important;
 
   /* Font and Typography */
   --body-font: "Poppins", sans-serif;
@@ -709,6 +710,7 @@ img {
 }
 
 /* PORTFOLIO */
+
 .portfolio__container {
   overflow: initial;
 }
@@ -760,6 +762,11 @@ img {
 
 .swiper-pagination-bullet-active {
   background-color: var(--first-color);
+}
+
+.swiper-pagination-bullet {
+  background: var(--first-color) !important;
+  opacity: 1 !important;
 }
 
 .swiper-button-prev,
