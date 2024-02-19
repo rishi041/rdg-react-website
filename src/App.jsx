@@ -4,7 +4,7 @@ import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Qualification from "./components/Qualification/Qualification";
 // import Services from "./components/Services/Services";
-// import Portfolio from "./components/Portfolio/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio";
 // import Testimonial from "./components/Testimonial/Testimonial";
 import ProjectInMind from "./components/ProjectInMind/ProjectInMind";
 import ContactMe from "./components/ContactMe/ContactMe";
@@ -27,7 +27,7 @@ function App() {
         <Skills />
         <Qualification />
         {/* <Services /> */}
-        {/* <Portfolio /> */}
+        <Portfolio />
         {/* <Testimonial /> */}
         <ProjectInMind />
         <ContactMe />
