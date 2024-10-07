@@ -1213,6 +1213,9 @@ img {
 
   .portfolio__img {
     width: 320px;
+    padding: 1rem;
+    border-radius: 10px;
+    background: hsla(var(--hue-color), 50%, 50%, 0.5);
   }
 
   .portfolio__content {
