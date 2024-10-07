@@ -19,15 +19,15 @@ const Skills = () => {
           <div>
             {/* Skills 1 */}
             <div
-              className={`skills__content ${
-                activeSection === 0 ? "skills__open" : "skills__close"
-              }`}
+              className={`skills__content ${activeSection === 0 ? "skills__open" : "skills__close"
+                }`}
             >
               <div className="skills__header" onClick={() => toggleSection(0)}>
                 <i className="uil uil-brackets-curly skills__icon" />
                 <div>
                   <h1 className="skills__title">Frontend developer</h1>
-                  <span className="skills__subtitle">More than 1 years</span>
+                  <span className="skills__subtitle">Frontend Developer with 1.7+ Years of Experience
+                  </span>
                 </div>
                 <i
                   className={
@@ -40,6 +40,24 @@ const Skills = () => {
               <div className="skills__list grid">
                 <div className="skills__data">
                   <div className="skills__titles">
+                    <h3 className="skills__name">React & Redux</h3>
+                    <span className="skills__number">90%</span>
+                  </div>
+                  <div className="skills__bar">
+                    <span className="skills__percentage skills__react" />
+                  </div>
+                </div>
+                <div className="skills__data">
+                  <div className="skills__titles">
+                    <h3 className="skills__name">JavaScript & TypeScript</h3>
+                    <span className="skills__number">85%</span>
+                  </div>
+                  <div className="skills__bar">
+                    <span className="skills__percentage skills__js" />
+                  </div>
+                </div>
+                <div className="skills__data">
+                  <div className="skills__titles">
                     <h3 className="skills__name">HTML</h3>
                     <span className="skills__number">85%</span>
                   </div>
@@ -49,29 +67,11 @@ const Skills = () => {
                 </div>
                 <div className="skills__data">
                   <div className="skills__titles">
-                    <h3 className="skills__name">CSS</h3>
+                    <h3 className="skills__name">CSS & SASS</h3>
                     <span className="skills__number">90%</span>
                   </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__css" />
-                  </div>
-                </div>
-                <div className="skills__data">
-                  <div className="skills__titles">
-                    <h3 className="skills__name">JavaScript</h3>
-                    <span className="skills__number">85%</span>
-                  </div>
-                  <div className="skills__bar">
-                    <span className="skills__percentage skills__js" />
-                  </div>
-                </div>
-                <div className="skills__data">
-                  <div className="skills__titles">
-                    <h3 className="skills__name">React</h3>
-                    <span className="skills__number">90%</span>
-                  </div>
-                  <div className="skills__bar">
-                    <span className="skills__percentage skills__react" />
                   </div>
                 </div>
               </div>
@@ -135,20 +135,18 @@ const Skills = () => {
             </div> */}
             {/* Skills 3 */}
             <div
-              className={`skills__content ${
-                activeSection === 2 ? "skills__open" : "skills__close"
-              }`}
+              className={`skills__content ${activeSection === 2 ? "skills__open" : "skills__close"
+                }`}
             >
               <div className="skills__header" onClick={() => toggleSection(2)}>
                 <i className="uil uil-swatchbook skills__icon" />
                 <div>
-                  <h1 className="skills__title">Other skills</h1>
-                  <span className="skills__subtitle">More than 1 years</span>
+                  <h1 className="skills__title">Additional Skills</h1>
+                  {/* <span className="skills__subtitle">More than 1 years</span> */}
                 </div>
                 <i
-                  className={`uil ${
-                    activeSection === 2 ? "uil-angle-down" : "uil-angle-down"
-                  } skills__arrow`}
+                  className={`uil ${activeSection === 2 ? "uil-angle-down" : "uil-angle-down"
+                    } skills__arrow`}
                 />
               </div>
               <div className="skills__list grid">

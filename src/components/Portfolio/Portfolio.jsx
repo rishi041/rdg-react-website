@@ -24,15 +24,20 @@ const Portfolio = () => {
             {/* PORTFOLIO 1 */}
             <SwiperSlide>
               <div className="portfolio__content grid">
-                <img src={portfolio1} alt="" className="portfolio__img" />
+                {/* <img src={portfolio1} alt="" className="portfolio__img" /> */}
+                <img
+                  src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
+                  alt="spotify"
+                  className="portfolio__img"
+                />
                 <div className="portfolio__data">
-                  <h3 className="portfolio__title">Modern Website</h3>
+                  <h3 className="portfolio__title">Spotify Clone - React</h3>
                   <p className="portfolio__description">
-                    Website adaptable to all devices, with ui components and
-                    animated interactions.
+                    Developed a responsive web app inspired by Spotify, featuring reusable UI components, interactive animations, and optimized for seamless performance across devices.
                   </p>
                   <a
-                    href="#"
+                    href="https://spotify-clone-rdg.netlify.app/"
+                    target="_blank"
                     className="button button--flex button--small portfolio__button"
                   >
                     Demo
@@ -42,7 +47,7 @@ const Portfolio = () => {
               </div>
             </SwiperSlide>
             {/* PORTFOLIO 2 */}
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="portfolio__content grid">
                 <img src={portfolio2} alt="" className="portfolio__img" />
                 <div className="portfolio__data">
@@ -60,9 +65,9 @@ const Portfolio = () => {
                   </a>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
             {/* PORTFOLIO 3 */}
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="portfolio__content grid">
                 <img src={portfolio3} alt="" className="portfolio__img" />
                 <div className="portfolio__data">
@@ -80,7 +85,7 @@ const Portfolio = () => {
                   </a>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
       </section>

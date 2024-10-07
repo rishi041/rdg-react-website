@@ -14,9 +14,8 @@ const Qualification = () => {
         <div className="qualification__container container">
           <div className="qualification__tabs">
             <div
-              className={`qualification__button button--flex ${
-                Qualification === "#education" ? "qualification__active" : " "
-              }`}
+              className={`qualification__button button--flex ${Qualification === "#education" ? "qualification__active" : " "
+                }`}
               // data-target="#education"
               onClick={() => handleTabClick("#education")}
             >
@@ -24,9 +23,8 @@ const Qualification = () => {
               Education
             </div>
             <div
-              className={`qualification__button button--flex ${
-                Qualification === "#work" ? "qualification__active" : " "
-              }`}
+              className={`qualification__button button--flex ${Qualification === "#work" ? "qualification__active" : " "
+                }`}
               // data-target="#work"
               onClick={() => handleTabClick("#work")}
             >
@@ -37,9 +35,8 @@ const Qualification = () => {
           <div className="qualification__sections">
             {/* Qualification content 1 */}
             <div
-              className={`qualification__content ${
-                Qualification === "#education" ? "qualification__active" : " "
-              }`}
+              className={`qualification__content ${Qualification === "#education" ? "qualification__active" : " "
+                }`}
               data-content
               id="education"
             >
@@ -124,9 +121,8 @@ const Qualification = () => {
             </div>
             {/* Qualification content 2 */}
             <div
-              className={`qualification__content ${
-                Qualification === "#work" ? "qualification__active" : " "
-              }`}
+              className={`qualification__content ${Qualification === "#work" ? "qualification__active" : " "
+                }`}
               data-content
               id="work"
             >
@@ -150,7 +146,7 @@ const Qualification = () => {
                 <div />
                 <div>
                   <span className="qualification__rounder" />
-                  {/*<span class="qualification__line"></span>*/}
+                  <span className="qualification__line" />
                 </div>
                 <div>
                   <h3 className="qualification__title">Frontend Developer</h3>
@@ -159,26 +155,25 @@ const Qualification = () => {
                   </span>
                   <div className="qualification__calendar">
                     <i className="uil uil-calendar-alt" />
-                    {' '}Dec 2022 - Present
+                    {' '}Dec 2022 - March 2024
                   </div>
                 </div>
               </div>
               {/* Qualification 3 */}
-              {/* <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">UI Designer</h3>
-                                <span class="qualification__subtitle">Figma - Spain</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2017 - 2019
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                comment after uncomment<span class="qualification__line"></span>
-                            </div>
-                        </div> */}
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Software Developer</h3>
+                  <span class="qualification__subtitle">HeapTrace Technology Pvt. Ltd, Pune</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    {' '}March 2024 - Present
+                  </div>
+                </div>
+                <div>
+                  <span className="qualification__rounder" />
+                  {/* <span className="qualification__line" /> */}
+                </div>
+              </div>
             </div>
           </div>
         </div>

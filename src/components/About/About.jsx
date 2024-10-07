@@ -11,8 +11,7 @@ const About = () => {
           <img src={AboutJpg} alt="" className="about__img" />
           <div className="about__data">
             <p className="about__description">
-              Software developer with strong knowledge of web technologies and
-              one year of experience delivering high-quality work.
+              Passionate software developer with over 1.7 years of experience in building responsive and high-quality web applications. I specialize in React and enjoy bringing designs to life with clean code and thoughtful UI/UX.
             </p>
             <div className="about__info">
               <div>
