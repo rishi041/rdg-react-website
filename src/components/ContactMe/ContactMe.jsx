@@ -110,12 +110,13 @@ const ContactMe = () => {
                 <i className="uil uil-phone contact__icon" />
               </a>
               <div>
-                <h3 className="contact__title">Call Me</h3>
+                <h3 className="contact__title">Phone</h3>
                 <span className="contact__subtitle">
                   <a href="tel:+918793671464" style={{ color: "inherit" }}>
                     +91 8793671464
                   </a>
                   ,
+                  {" "}
                 </span>
                 <span className="contact__subtitle">
                   <a href="tel:+918484886125" style={{ color: "inherit" }}>

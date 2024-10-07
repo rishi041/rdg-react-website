@@ -67,8 +67,7 @@ const Home = () => {
               <h1 className="home __title">Hello, I am Rushikesh Ganorkar</h1>
               <h3 className="home__subtitle">Software developer</h3>
               <p className="home__description">
-                excellent level of experience in web design and development
-                knowledge, producing quality work.
+                Crafting Interactive Web Experiences with Passion & Precision Bringing expertise in web design and development, creating dynamic and user-centered digital solutions.
               </p>
               <a href="#contact" className="button button--flex">
                 Contact Me <i className="uil uil-message button__icon" />
