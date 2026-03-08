@@ -14,8 +14,9 @@ const Qualification = () => {
         <div className="qualification__container container">
           <div className="qualification__tabs">
             <div
-              className={`qualification__button button--flex ${Qualification === "#education" ? "qualification__active" : " "
-                }`}
+              className={`qualification__button button--flex ${
+                Qualification === "#education" ? "qualification__active" : " "
+              }`}
               // data-target="#education"
               onClick={() => handleTabClick("#education")}
             >
@@ -23,8 +24,9 @@ const Qualification = () => {
               Education
             </div>
             <div
-              className={`qualification__button button--flex ${Qualification === "#work" ? "qualification__active" : " "
-                }`}
+              className={`qualification__button button--flex ${
+                Qualification === "#work" ? "qualification__active" : " "
+              }`}
               // data-target="#work"
               onClick={() => handleTabClick("#work")}
             >
@@ -35,8 +37,9 @@ const Qualification = () => {
           <div className="qualification__sections">
             {/* Qualification content 1 */}
             <div
-              className={`qualification__content ${Qualification === "#education" ? "qualification__active" : " "
-                }`}
+              className={`qualification__content ${
+                Qualification === "#education" ? "qualification__active" : " "
+              }`}
               data-content
               id="education"
             >
@@ -50,8 +53,7 @@ const Qualification = () => {
                     Manibai Gujrati High School And Junior College
                   </span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt" />
-                    {' '}2014 - 2015
+                    <i className="uil uil-calendar-alt" /> 2014 - 2015
                   </div>
                 </div>
                 <div>
@@ -74,8 +76,7 @@ const Qualification = () => {
                     Manibai Gujrati High School And Junior College
                   </span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt" />
-                    {' '}2015 - 2017
+                    <i className="uil uil-calendar-alt" /> 2015 - 2017
                   </div>
                 </div>
               </div>
@@ -89,8 +90,7 @@ const Qualification = () => {
                     Brijlal Biyani Science College
                   </span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt" />
-                    {' '}2017 - 2020
+                    <i className="uil uil-calendar-alt" /> 2017 - 2020
                   </div>
                 </div>
                 <div>
@@ -113,16 +113,16 @@ const Qualification = () => {
                     Shri Ramdeobaba College of Engineering and Management
                   </span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt" />
-                    {' '}2020 - 2022
+                    <i className="uil uil-calendar-alt" /> 2020 - 2022
                   </div>
                 </div>
               </div>
             </div>
             {/* Qualification content 2 */}
             <div
-              className={`qualification__content ${Qualification === "#work" ? "qualification__active" : " "
-                }`}
+              className={`qualification__content ${
+                Qualification === "#work" ? "qualification__active" : " "
+              }`}
               data-content
               id="work"
             >
@@ -132,8 +132,7 @@ const Qualification = () => {
                   <h3 className="qualification__title">Web Developer</h3>
                   <span className="qualification__subtitle">Pune</span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt" />
-                    {' '}May 2022 - Aug 2022
+                    <i className="uil uil-calendar-alt" /> May 2022 - Aug 2022
                   </div>
                 </div>
                 <div>
@@ -151,27 +150,44 @@ const Qualification = () => {
                 <div>
                   <h3 className="qualification__title">Frontend Developer</h3>
                   <span className="qualification__subtitle">
-                    Trinesis Technologies Private Limited, Pune
+                    Trinesis Tech Pvt Ltd, Pune
                   </span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt" />
-                    {' '}Dec 2022 - March 2024
+                    <i className="uil uil-calendar-alt" /> Dec 2022 - March 2024
                   </div>
                 </div>
               </div>
               {/* Qualification 3 */}
-              <div class="qualification__data">
+              <div className="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Software Developer</h3>
-                  <span class="qualification__subtitle">HeapTrace Technology Pvt. Ltd, Pune</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    {' '}March 2024 - Present
+                  <h3 className="qualification__title">Frontend Developer</h3>
+                  <span className="qualification__subtitle">
+                    HeapTrace Tech Pvt Ltd, Pune
+                  </span>
+                  <div className="qualification__calendar">
+                    <i className="uil uil-calendar-alt"></i> Mar 2024 - Oct 2024
                   </div>
                 </div>
                 <div>
                   <span className="qualification__rounder" />
+                  <span className="qualification__line" />
+                </div>
+              </div>
+              {/* Qualification 4 */}
+              <div className="qualification__data">
+                <div />
+                <div>
+                  <span className="qualification__rounder" />
                   {/* <span className="qualification__line" /> */}
+                </div>
+                <div>
+                  <h3 className="qualification__title">Frontend Engineer</h3>
+                  <span className="qualification__subtitle">
+                    Thinkitive Technologies Pvt Ltd, Pune
+                  </span>
+                  <div className="qualification__calendar">
+                    <i className="uil uil-calendar-alt"></i> Nov 2024 - Present
+                  </div>
                 </div>
               </div>
             </div>

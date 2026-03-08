@@ -67,9 +67,9 @@ const ContactMe = () => {
       return; // Stop form submission
     }
 
-    const serviceId = "service_roqenbf";
-    const templateId = "template_f9llm8r";
-    const userId = "-WkK_HKaXhc-cPBMG";
+    const serviceId = "service_bfajuzs";
+    const templateId = "template_92sfzbb";
+    const userId = "Y3TlO_znGl7kgIvqg";
 
     const emailData = {
       to_name: "Rushikesh Ganorkar",
@@ -87,7 +87,7 @@ const ContactMe = () => {
       (error) => {
         notifyError();
         console.error("Error sending email:", error);
-      }
+      },
     );
 
     setFormData({
@@ -115,8 +115,7 @@ const ContactMe = () => {
                   <a href="tel:+918793671464" style={{ color: "inherit" }}>
                     +91 8793671464
                   </a>
-                  ,
-                  {" "}
+                  ,{" "}
                 </span>
                 <span className="contact__subtitle">
                   <a href="tel:+918484886125" style={{ color: "inherit" }}>
@@ -143,7 +142,7 @@ const ContactMe = () => {
               <i className="uil uil-map-marker contact__icon" />
               <div>
                 <h3 className="contact__title">Location</h3>
-                <span className="contact__subtitle">Pune - Maharastra</span>
+                <span className="contact__subtitle">Pune - Maharashtra</span>
               </div>
             </div>
           </div>
