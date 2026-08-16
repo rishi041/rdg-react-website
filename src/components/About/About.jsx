@@ -11,24 +11,34 @@ const About = () => {
           <img src={AboutJpg} alt="" className="about__img" />
           <div className="about__data">
             <p className="about__description">
-              Passionate software developer with over 1.7 years of experience in building responsive and high-quality web applications. I specialize in React and enjoy bringing designs to life with clean code and thoughtful UI/UX.
+              Frontend Engineer with 3+ years of experience building scalable,
+              production-grade healthcare SaaS applications using ReactJS and
+              TypeScript. Specialized in complex dynamic forms, SDK
+              integrations, and real-time communication systems. Strong
+              ownership mindset with focus on performance, maintainability, and
+              clean architecture.
             </p>
             <div className="about__info">
               <div>
-                {/*<span class="about__info-title">01+</span>*/}
-                {/*<span class="about__info-name"*/}
-                {/*  >Years <br />*/}
-                {/*  experience</span*/}
+                <span className="about__info-title">03+</span>
+                <span className="about__info-name">
+                  Years <br />
+                  experience
+                </span>
               </div>
               <div>
-                {/*<span class="about__info-title">2+</span>*/}
-                {/*<span class="about__info-name"*/}
-                {/*  >Completed <br />*/}
-                {/*  project</span*/}
+                <span className="about__info-title">03+</span>
+                <span className="about__info-name">
+                  Completed <br />
+                  projects
+                </span>
               </div>
               <div>
-                {/* <span class="about__info-title">05+</span>
-                      <span class="about__info-name">Companies <br> worked</span> */}
+                <span className="about__info-title">03</span>
+                <span className="about__info-name">
+                  Companies <br />
+                  worked
+                </span>
               </div>
             </div>
             <div className="about__buttons">

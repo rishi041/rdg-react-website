@@ -65,9 +65,12 @@ const Home = () => {
             </div>
             <div className="home__data">
               <h1 className="home __title">Hello, I am Rushikesh Ganorkar</h1>
-              <h3 className="home__subtitle">Software developer</h3>
+              <h3 className="home__subtitle">Frontend Engineer</h3>
               <p className="home__description">
-                Crafting Interactive Web Experiences with Passion & Precision Bringing expertise in web design and development, creating dynamic and user-centered digital solutions.
+                Frontend Engineer specializing in React.js and TypeScript,
+                building scalable and production-grade web applications.
+                Leverages AI-assisted development to deliver efficient and
+                high-quality software.
               </p>
               <a href="#contact" className="button button--flex">
                 Contact Me <i className="uil uil-message button__icon" />
